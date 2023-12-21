@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Extending the adopted spec, each change should have a link to its corresponding pull request appended.
 
+## [30.0.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v29.0.0...v30.0.0) (2023-12-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* **TF>=1.1:** Configure ASM management mode ([#1702](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1702))
+
+### Features
+
+* add advanced datapath observability config option ([#1776](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1776)) ([90e9bdf](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/90e9bdfb2a348ab22d996711e477cc6a7aa27c28))
+* Add support for configuring allow_net_admin in autopilot clusters ([#1768](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1768)) ([493149d](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/493149d37aa13bbda1fc8dbcaec1b40f051c642e))
+* add support for pod_range in private cluster ([#1803](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1803)) ([9c62f1f](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/9c62f1f53afacf664528f9b3187c7e5df8eea1fa))
+* **TF>=1.1:** Configure ASM management mode ([#1702](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1702)) ([a9de2d7](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/a9de2d79d68b19dfee5b6bd8ee0c646ee621bbee))
+
 ## [29.0.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v28.0.0...v29.0.0) (2023-11-02)
 
 
